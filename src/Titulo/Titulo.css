@@ -14,3 +14,13 @@
     font-size: 40px;
     font-family: 'Luckiest Guy', cursive;
 }
+
+@media screen and (max-width: 768px) {
+    .app-titulo {
+        height: 50px;
+    }
+
+    .app-titulo p {
+        font-size: 30px;
+    }
+}
