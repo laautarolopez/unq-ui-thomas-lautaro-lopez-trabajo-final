@@ -13,11 +13,33 @@
     width: 100%;
     height: 100vh;
     background-color: black;
-    padding: 15px;
 }
 
 .divisor {
     width: 80%;
     position: absolute;
     left: 10%;
+    margin: 0;
+}
+
+.container {
+    height: calc(100vh - 81px);
+}
+
+.spinnerContainer {
+    height: calc(100vh - 80px - 17px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-border {
+    width: 64px !important;
+    height: 64px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        height: calc(100vh - 41px);
+    }
 }
