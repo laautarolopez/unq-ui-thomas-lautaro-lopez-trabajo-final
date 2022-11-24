@@ -6,18 +6,19 @@
     flex-direction: row;
     justify-content: center;
     gap: 20px;
-    margin-bottom: 10px;
+    padding: 15px;
 }
 
 .app-titulo p {
-    align-self: center;
     font-size: 40px;
     font-family: 'Luckiest Guy', cursive;
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {
     .app-titulo {
-        height: 50px;
+        height: 40px;
+        padding: 5px;
     }
 
     .app-titulo p {
