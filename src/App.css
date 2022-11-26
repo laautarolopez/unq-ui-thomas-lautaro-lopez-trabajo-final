@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+    font-family: MikadoBlack, Roboto, sans-serif;
     text-align: center;
     color: white;
 }
@@ -39,8 +39,13 @@
     height: 64px !important;
 }
 
+.link {
+    text-decoration: none;
+    cursor: default;
+}
+
 @media screen and (max-width: 768px) {
     .container {
-        height: calc(100vh - 41px);
+        height: calc(100vh - 51px);
     }
 }
