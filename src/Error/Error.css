@@ -1,0 +1,11 @@
+.error {
+    background-color: white;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+
+.error p {
+    color: red;
+    margin: 0;
+}
