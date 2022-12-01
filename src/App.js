@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Titulo from './Titulo/Titulo';
 import Home from './Home/Home';
 import NotFound from './NotFound/NotFound';
+import Questions from './Questions/Questions';
 
 const App = () => {
     return (
@@ -12,7 +13,7 @@ const App = () => {
             <hr className='divisor'/>
             <Routes>
                 <Route path="/" element={<Home />} />
-                {/* <Route path="/elemento/:parametro" element={<elemento />} /> */}
+                <Route path="/questions" element={<Questions />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </div>
