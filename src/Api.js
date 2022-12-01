@@ -12,7 +12,7 @@ const getQuestions = (difficulty) => {
     const params = {
         difficulty: difficulty,
     };
-    return axios.get(host + "/api/questions", params)
+    return axios.get(host + "/api/questions", {params})
         .then((response) => { return response.data })
         .catch((error) => { return error });
 };
