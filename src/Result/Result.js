@@ -21,8 +21,8 @@ const Result = () => {
     return(
         <div className='container'>
             {error
-            ? <div className='questions-error'>
-                <div className='questions-error-list'>
+            ? <div className='result-error'>
+                <div className='result-error-list'>
                     {difficulty == null && <Error mensaje={"no hay ninguna dificultad en el query string."} />}
                     {correctas == null && <Error mensaje={"no hay ninguna cantidad de respuestas correctas en el query string."} />}
                     {totales == null && <Error mensaje={"no hay ninguna cantidad de respuestas totales en el query string."} />}

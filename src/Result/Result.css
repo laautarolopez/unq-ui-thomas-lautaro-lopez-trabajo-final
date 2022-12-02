@@ -8,7 +8,7 @@
     gap: 50px;
 }
 
-.questions-error-list {
+.result-error-list {
     display: flex;
     flex-direction: column;
     gap: 10px;
