@@ -5,6 +5,7 @@ import Titulo from './Titulo/Titulo';
 import Home from './Home/Home';
 import NotFound from './NotFound/NotFound';
 import Questions from './Questions/Questions';
+import Result from './Result/Result';
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/questions" element={<Questions />} />
+                <Route path="/result" element={<Result />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </div>
