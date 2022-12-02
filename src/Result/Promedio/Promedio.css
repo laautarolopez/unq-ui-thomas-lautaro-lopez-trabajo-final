@@ -1,0 +1,23 @@
+.promedio {
+}
+
+.promedio-final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.promedio-final img {
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+    .promedio-final img {
+        width: 50%;
+        height: 50%;
+    }
+}
