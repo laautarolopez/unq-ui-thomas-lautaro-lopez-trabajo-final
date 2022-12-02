@@ -4,7 +4,7 @@ import { Button } from 'reactstrap';
 import Api from '../Api';
 import { Navigate } from 'react-router-dom';
 
-const ListaDePreguntas = ({ preguntas }) => {
+const ListaDePreguntas = ({ preguntas, difficulty }) => {
     const [preguntasActuales, setPreguntasActuales] = useState(preguntas);
     const [cantPreguntasVistas, setCantPreguntasVistas] = useState(1);
     const [contestoPreguntaActual, setContestoPreguntaActual] = useState(false);
@@ -100,7 +100,14 @@ const ListaDePreguntas = ({ preguntas }) => {
                 : "Siguiente"
                 }
             </Button>
-            {habilitado && <Navigate to={`/result?correctas=${cantRespuestasCorrectas}&totales=${cantPreguntasTotales}`} />}
+            {habilitado && 
+            <Navigate to={`/result?`+
+                        `difficulty=${difficulty}`+
+                        `&correctas=${cantRespuestasCorrectas}`+
+                        `&totales=${cantPreguntasTotales}`
+                        }
+            />
+            }
         </div>
     );
 }
