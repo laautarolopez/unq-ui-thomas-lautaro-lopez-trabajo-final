@@ -39,7 +39,7 @@ const Questions = () => {
                 </Link>
             </div>
             : preguntas != undefined
-                ? <ListaDePreguntas preguntas={preguntas} />  
+                ? <ListaDePreguntas preguntas={preguntas} difficulty={difficulty} />  
                 : <div className='spinnerContainer'>
                     <Spinner />
                 </div>
