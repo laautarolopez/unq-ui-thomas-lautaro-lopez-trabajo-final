@@ -14,7 +14,7 @@ const ResultadoFinal = ({ difficulty, correctas, totales }) => {
             <div className='resultado-final-inicio'>
                 <div className='resultado-final-presentacion'>RESULTADO</div>
                 <div className='resultado-final-title'>
-                    Obtuviste {correctas}/{totales} respuestas correctas
+                    Obtuviste {correctas}/{totales} respuestas correctas en la dificultad {difficulty}
                 </div>
             </div>
             <Promedio promedio={promedio} />
