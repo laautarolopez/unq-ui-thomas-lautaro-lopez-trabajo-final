@@ -1,3 +1,17 @@
+# Preguntados
+
+![logo](https://user-images.githubusercontent.com/63264718/205773796-2e2e3f55-0d90-4c03-b03a-dc7d88e3243a.png)
+
+## ¿Cómo descargar?
+
+## ¿Cómo instalar?
+
+## ¿Cómo ejecutar localmente?
+
+## ¿Puedo probarlo antes de descargarlo?
+
+Claro, puedes probarlo aquí [http://preguntado.netlify.app](http://preguntado.netlify.app).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
