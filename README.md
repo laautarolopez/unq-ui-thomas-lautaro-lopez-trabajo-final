@@ -39,3 +39,4 @@ Hay dos formas muy simples:
 ## ¿Puedo probarlo antes de descargarlo?
 
 Claro, puedes probarlo aquí [http://preguntado.netlify.app](http://preguntado.netlify.app)
+**`Para mejorar experiencia se recomienda instalar localmente`**
